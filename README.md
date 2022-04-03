@@ -26,7 +26,9 @@ __The design specifications for the MechaCar suspension coils dictate that the v
 ![](Resources/overall_lot_summary.PNG)
 ![](Resources/lot_summary.PNG)
 
-    When observing the entire population of the production lot, the variance of coils is 62.29 PSI which falls within the 100 PSI requirement. Taking a deeper dive into the lots we can observe that lot 1 and two are well within the 100 psi requirement. However, lot 3 is showing a larger variance in performance with a variance of 170.29. 
+    When observing the entire population of the production lot, the variance of coils is 62.29 PSI which falls within the 100 
+    PSI requirement. Taking a deeper dive into the lots we can observe that lot 1 and two are well within the 100 psi requirement. 
+    However, lot 3 is showing a larger variance in performance with a variance of 170.29. 
 
 ## T-Tests on Suspension Coils
     According to the t.test lot 1 has a true sample mean of 1500 and a p-value of 1. Therefore we cannot reject the null 
