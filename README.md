@@ -17,17 +17,16 @@ __Does this linear model predict mpg of MechaCar prototypes effectively? Why or 
     The model does predict mpg of MechaCar prototypes effectively as the linear model has an r-squared value of 0.7149 which 
     means 71% of all mpg predictions are determined by the model. 
     
-![](Resources/MechaCarChallengeSummary.png)
+![](Resources/MechaCarChallengeSummary.PNG)
 
 ## Summary Statistics on Suspension Coils
 
 __The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?__
 
-![](Resources/overall_lot_summary.png)
-![](Resources/lot_summary.png)
+![](Resources/overall_lot_summary.PNG)
+![](Resources/lot_summary.PNG)
 
-<insert lot_summary>
-When observing the entire population of the production lot, the variance of coils is 62.29 PSI which falls within the 100 PSI requirement. Taking a deeper dive into the lots we can observe that lot 1 and two are well within the 100 psi requirement. However, lot 3 is showing a larger variance in performance with a variance of 170.29. 
+    When observing the entire population of the production lot, the variance of coils is 62.29 PSI which falls within the 100 PSI requirement. Taking a deeper dive into the lots we can observe that lot 1 and two are well within the 100 psi requirement. However, lot 3 is showing a larger variance in performance with a variance of 170.29. 
 
 ## T-Tests on Suspension Coils
     According to the t.test lot 1 has a true sample mean of 1500 and a p-value of 1. Therefore we cannot reject the null 
@@ -40,9 +39,9 @@ When observing the entire population of the production lot, the variance of coil
     level of 0.05. Therefore, we reject the null hypothesis. Indicating the sample mean and population mean of 1500 are not 
     statistically similar. 
 
-![](Resources/lot1_ttest.png)
-![](Resources/lot2_ttest.png)
-![](Resources/lot3_ttest.png)
+![](Resources/lot1_ttest.PNG)
+![](Resources/lot2_ttest.PNG)
+![](Resources/lot3_ttest.PNG)
 
 ## Study Design: MechaCar vs Competition
 __Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horsepower, maintenance cost, or safety rating.
